@@ -103,7 +103,46 @@ button{
     margin-left: 100px;
     
 }
-
+@media screen and (max-width: 600px){
+    .content{
+        flex-direction: column;
+    }
+    .image1{
+        margin-top: 100px;
+        margin-left: 100px;
+    }
+    .main-content h1{
+        margin-top: 100px;
+        font-size: 46px;
+        font-weight: 600;
+        color: #333;
+        letter-spacing: 2px;
+        font-family: 'Poppins', sans-serif;
+    }
+    .main-content p{
+        margin-top: 20px;
+        font-size: 16px;
+        color: #333;
+        letter-spacing: 1px;
+        font-family: 'Poppins', sans-serif;
+    }
+    button{
+        margin-top: 20px;
+        padding: 10px 20px;
+        background-color:cornsilk;
+        color:black;
+        border: none;
+        border-radius: 5px;
+        letter-spacing: 1px;
+        font-family: 'Poppins', sans-serif;
+        cursor: pointer;
+    }
+    .btn2{
+        margin-left: 100px;
+    }
+    
+}
+    
 
 
 
